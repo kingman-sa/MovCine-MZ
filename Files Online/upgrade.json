@@ -1,6 +1,5 @@
 {
-  "version": "2.0.4",
-  "title": "Nova Atualização Disponível",
-  "mes": "Mudanças no Visual",
-  "link": "https://www.mozdevz.org"
+    "version": "1.0.1",
+    "update": "https://github.com/kingman-sa/MovCine-MZ/releases/tag/v1.0.1",
+    "message": "Nova atualização disponível!"
 }
