@@ -1,14 +1,29 @@
-"paysuite": {
-    "url": "https://paysuite.tech/api/v1/payments",
-    "check_url": "https://paysuite.tech/api/v1/payments/",
-    "authorization": "Bearer 1894|DnfMZ8z0p8zUTGTCd8HrnOX52W9FFHxE0zLWPeGI14441703"
+{
+    "url": "https://fvurffufuamlknbkokrg.supabase.co/functions/v1/process-subscription",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjZ4TU5rRDRnNmRjeVBGVUciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2Z2dXJmZnVmdWFtbGtuYmtva3JnLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJmZjI3MjE1ZS1jMTI1LTRhNjktYmYwYS0yOWJhZmYwMTkwOGIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzcyMzU1MzAzLCJpYXQiOjE3NzIzNTE3MDMsImVtYWlsIjoiam9qb2ZlbmlhZEBnbWFpbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImJ1c2luZXNzX25hbWUiOiJEZXZlbG9wZXIgSW5jIiwiZW1haWwiOiJqb2pvZmVuaWFkQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmdWxsX25hbWUiOiJIZWxpb3oiLCJwaG9uZSI6Ijg0MjgzNDg4OSIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwic3ViIjoiZmYyNzIxNWUtYzEyNS00YTY5LWJmMGEtMjliYWZmMDE5MDhiIn0sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoicGFzc3dvcmQiLCJ0aW1lc3RhbXAiOjE3NzA3MjE1NTR9XSwic2Vzc2lvbl9pZCI6ImM3NzhkMWYzLTRmNzQtNDRhYy05ZWM2LWJhNTU0MGU0YWEzOSIsImlzX2Fub255bW91cyI6ZmFsc2V9.Q0KI8HidEwvW7xpOex7ZQLrdrKLU7LH72e3zRTbVBok",
+        "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ2dXJmZnVmdWFtbGtuYmtva3JnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkzMDA5ODcsImV4cCI6MjA3NDg3Njk4N30.mGPJLvcgs84umPgRMXC5rQFgsLSK9bahSA1mRVbBFb8"
+    },
+    "body": {
+        "planId": "174afdcf-6f7b-4c60-9119-b3fa86310f35",
+        "subscriberName": "Jorge Da Costa",
+        "subscriberPhone": "853943377",
+        "paymentPhone": "853943377",
+        "paymentMethod": "mpesa",
+        "customFieldValues": {}
+    },
     "manual": {
         "mess": "Pagamento Manual Via M-pesa",
         "numero": "853943377",
         "nome": "Artimisa Azarias Chilaule",
-        "custo": "149.MT Sem Validade",
-        "whatsApp": "258842834889",
+        "custo": "49.MT",
         "payment": false,
         "html": "<b><big>MovCine Donate</big></b><br><br>\nApoie o nosso projeto e ganhe benefícios exclusivos!<br><br>\n• Acesse todos os conteúdos sem restrições<br>\n• Baixe seus filmes e séries favoritos<br>\n• Pesquise seus filmes e séries favoritos<br>\n• Ganhe o símbolo de Apoiante do Projeto <br><br>\n<i>Lembre-se: o MovCine é um app gratuito, e a sua doação nos ajuda a manter o projeto vivo e atualizado!</i><br><br>\nA sua contribuição é fundamental para que possamos continuar a trazer mais apps gratuitos e atualizações para você!"
+    },
+    "paysuite": {
+    "url": "https://paysuite.tech/api/v1/payments",
+    "check_url": "https://paysuite.tech/api/v1/payments/",
+    "authorization": "Bearer 1894|DnfMZ8z0p8zUTGTCd8HrnOX52W9FFHxE0zLWPeGI14441703"
     }
 }
